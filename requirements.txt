@@ -1,8 +1,9 @@
 chess.com==2.1.0
-pandas==1.5.2
+pandas==2.2.3
+numy==2.1.1
 plotly==5.18.0
 pyodbc==5.1.0
-requests==2.32.3
+requests==2.28.0
 SQLAlchemy==2.0.35
 streamlit==1.39.0
 streamlit_lottie==0.0.5
