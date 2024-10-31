@@ -9,3 +9,4 @@ streamlit==1.39.0
 streamlit_lottie==0.0.5
 streamlit_option_menu==0.3.13
 wikipedia==1.4.0
+aiohttp==3.8.1
