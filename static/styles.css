@@ -1,0 +1,398 @@
+/* App Background styling */
+.stApp {
+    background-image: url("data:image/jpg;base64,{{image_base64}}");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Change the color of widget labels and titles */
+.stMarkdown {
+    color: #ffffff;  /* Title and label text color */
+}
+
+/* Widget CSS: */
+.stSelectbox label, 
+.stTextInput label, 
+.stNumberInput label,
+.stSlider label,
+.stTabs label,
+.stCheckbox label,
+.stRadio label,
+.stMultiSelect label 
+.stTextInput, .stNumberInput, .stSlider, .stCheckbox, .stRadio label, .stMultiSelect, .stRadio {
+    color: #ffffff;  /* Color for text within widgets */
+}
+
+.stApp > header {
+    background-color: rgba(0, 0, 0, 0);  /* Transparent background */
+    color: white;  /* Hide the text */
+}
+
+/* Progress Bar CSS:  */
+.stProgress .st-bo {
+    background-color: #69923E;
+}
+
+/* Player Info CSS: */
+h2{
+    color: white;
+}
+.st-emotion-cache-sy3zga {
+    color: black;
+}
+/* Text color in st.selectbox */
+div[data-baseweb="select"] > div {
+    color: black;
+}
+
+/* Set background color for radio options */
+div[data-testid="stRadio"] {
+    background-color: white; 
+    padding: 10px;  /* Add some padding */
+    border-radius: 10px;  /* Round the corners */
+}
+
+/* Set the radio option text color */
+div[data-testid="stRadio"] > label > div {
+    color: black;  
+}
+
+/* White Text in st.Tab */
+.st-bc{
+    color: white;
+}
+.st-emotion-cache-1r4qj8v {
+    color: white;
+}
+.st-emotion-cache-1h9usn1 {
+    border-color: white;
+}
+.st-emotion-cache-1vt4y43 {
+    color: black;
+}
+
+/*  Metric Card CSS Style: */
+.metric-container {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 5px;
+    height: 100px; /* Fixed height */
+    width: 200px;  /* Adjust the width here */
+    margin-bottom: 40px;
+    display: inline-block;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    text-align: center;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+    background-color:#fff;
+}
+
+
+.metric-container-spec {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 0px;
+    height: 100px; /* Fixed height */
+    width: 200px;  /* Adjust the width here */
+    margin: 5px;
+    margin-left:45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    text-align: center;
+    font-size: 10px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+    background-color:#fff;
+}
+/* .metric-container-1 {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 5px;
+    height: 100px;
+    width: 200px;  
+    margin-left: 75px;
+    margin-bottom: 40px;
+    display: inline-block;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+    background-color:#fff;
+} */
+.metric-label {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px 0;
+    color: #555;
+}
+.metric-value {
+    font-size: 24px;
+    color: #333;
+}
+.metric-label-spec {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px 0;
+    color: #555;
+}
+.metric-value-spec {
+    font-size: 16px;
+    color: #333;
+}        
+.metric-delta {
+    font-size: 14px;
+    color: rgba(0,155,0);
+    font-weight:bold;
+}
+.metric-delta-grey {
+    font-size: 14px;
+    color: grey;
+    font-weight:bold;
+}
+.value-win {
+    color: green;
+    vertical-align: middle;
+}
+.value-draw {
+    color: grey;
+    vertical-align: middle;
+}
+.value-loss {
+    color: red;
+    vertical-align: middle;
+}
+img {
+    margin-bottom: 5px;
+}
+ /* Player-Info CSS Styles: */
+.profile-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px 20px;
+    background-color: #2b2b4b;
+    border-radius: 10px;
+    color: white;
+    max-width: 100%; 
+    box-sizing: border-box;
+}
+.avatar-container {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex: 0 0 150px; 
+}
+.avatar {
+    border-radius: 10%;
+    border: 2px solid #69923e; 
+    width: 150px; 
+    height: auto;
+    margin-top: 5px;
+}
+.player-info {
+    flex: 1;
+    max-width: calc(100% - 200px); /* 170px image + 30px padding*/
+}
+.name-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 10px;
+}
+.title {
+    background-color: #9c4418;
+    padding: 1px 5px;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.player-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.country-flag img {
+    max-width: 20px;
+    border: none;
+}
+.badge {
+    font-size: 1 rem;
+}
+.full-name-location {
+    font-size: 0.9rem;
+    color: #b3b3b3;
+}
+.additional-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #b3b3b3;
+    gap: 50px;
+    padding-bottom: 10px;
+}
+.info-box {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    background-color: #3c3c6b;
+    border-radius: 5px;
+    width:250px;
+}
+.icon {
+    margin-right: 5px;
+    font-size:15px;
+}
+
+/* Divider Line CSS */
+hr {
+    border: none;
+    height: 2px;
+    background-color: #fff;  /* Change divider line color */
+}
+
+/* Plotly Chart Background color: */
+.stPlotlyChart {
+    outline: 2px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+    justify-content:center;
+}
+
+/* Caption Text color CSS: */
+.st-emotion-cache-194b4og {
+    color:white;
+    border-radius:5px;
+}
+
+.custom-progress-bar div[role="progressbar"] {
+    background-color: #4CAF50 !important;  /* Change this to the color you want */
+}
+
+.st-emotion-cache-1dnj9gs:hover{
+    border-color: rgba(255, 255, 255, 0.6);
+}
+
+ /* For Smaller Devices (Phones/ Tablet) (Cards Stacked) */
+ @media only screen and (max-width:768px){
+    .metrics-row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .metric-icon img {
+        vertical-align: middle;
+    }
+    /* #################### */
+    .profile-container {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .player-info {
+        max-width: 100%;
+        /* align-items: center; */
+    }
+    .avatar-container {
+        flex: 0 0 auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .avatar {
+        width: 120px; /* Adjust size for smaller screens */
+        margin-top: 10px;
+    }
+    .name-section {
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+        margin-top: 0;
+    }
+    .player-name {
+        font-size: 16px;
+    }
+    .title{
+        font-size: 12px;
+    }
+    .badge {
+        font-size: 0.9rem;
+    }
+    .full-name-location {
+        text-align: center;
+        font-size: 0.8rem;
+    }
+    .additional-info {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 10px;
+    }
+    .info-box {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px; /* Add space between info boxes */
+    }
+    .st-emotion-cache-lg35kc{
+        color: white;
+    }
+}
+/* For Bigger Screen (Laptop/PC) */
+@media only screen and (min-width:769px){
+    .metrics-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .metric-icon img {
+        vertical-align: middle;
+    }
+    /* ############## */
+    .profile-container {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .avatar-container {
+        flex: 0 0 150px;
+    }
+    .avatar {
+        width: 150px;
+    }
+    .player-info {
+        max-width: calc(100% - 200px);
+    }
+    .name-section {
+        gap: 10px;
+    }
+    .player-name {
+        font-size: 20px;
+    }
+    .title{
+        font-size: 14px;
+    }
+    .full-name-location {
+        font-size: 0.9rem;
+    }
+    .info-box {
+        width: 250px;
+    }
+    .st-emotion-cache-lg35kc{
+        color: white;
+    }
+}
