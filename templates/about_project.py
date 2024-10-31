@@ -57,7 +57,7 @@ def about_project():
     st.markdown(background_css, unsafe_allow_html=True)
 
 # Load SVG file
-    with open("assets/Diagram-2-2.svg", "r") as svg_file:
+    with open("assets/Diagram-2.svg", "r") as svg_file:
         svg_content = svg_file.read()
 
     # App Title:
