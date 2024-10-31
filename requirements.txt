@@ -1,4 +1,5 @@
-pip
+python-3.9
+pip==24.3.1
 chess.com==2.1.0
 pandas==2.2.3
 plotly==5.18.0
@@ -8,5 +9,5 @@ SQLAlchemy==2.0.35
 streamlit==1.39.0
 streamlit_lottie==0.0.5
 streamlit_option_menu==0.3.13
-wikipedia
+wikipedia-api==0.5.4
 aiohttp==3.8.3 --only-binary :all:
